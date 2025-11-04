@@ -1,0 +1,80 @@
+/* Custom styles for EBDAT Consultancy */
+
+:root {
+    --ebdat-primary: #0D3B69; /* Dark Blue from logo */
+    --ebdat-secondary: #6CADED; /* Light Blue from logo */
+    --ebdat-light: #f8f9fa; /* Keep light gray/white */
+    --ebdat-dark: #343a40; /* Keep dark gray */
+    --ebdat-accent: #388E3C; /* Green from logo */
+    --ebdat-orange-accent: #FF6F00; /* Orange from logo */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--ebdat-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--ebdat-primary);
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--ebdat-primary);
+    border-color: var(--ebdat-primary);
+}
+
+.btn-primary:hover {
+    background-color: #004085;
+    border-color: #004085;
+}
+
+.text-primary {
+    color: var(--ebdat-primary) !important;
+}
+
+.bg-light {
+    background-color: var(--ebdat-light) !important;
+}
+
+.bg-primary {
+    background-color: var(--ebdat-primary) !important;
+}
+
+.footer {
+    background-color: var(--ebdat-dark);
+    color: var(--ebdat-light);
+}
+
+.footer a {
+    color: var(--ebdat-light);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--ebdat-accent);
+}
+
+.hero-section h1 {
+    color: var(--ebdat-orange-accent) !important;
+}
+
+.footer h5 {
+    color: var(--ebdat-orange-accent);
+}
+
+.col-md-2-4 {
+    flex: 0 0 auto;
+    width: 20%; /* For 5 columns */
+}
+
+@media (max-width: 767.98px) {
+    .col-md-2-4 {
+        width: 100%; /* Stack on small screens */
+    }
+}
